@@ -17,6 +17,9 @@ body {
 }
 
 /* ///////////..utility classes../////////// */
+section {
+  text-align: center;
+}
 
 .container {
   max-width: 1200px;
@@ -47,8 +50,7 @@ body {
   cursor: pointer;
   outline: none;
   margin-top: 1em;
-  margin-left: 50%;
-  transform: translate(-50%);
+
   text-transform: uppercase;
   font-weight: small;
 }
@@ -121,6 +123,12 @@ body {
 
 
 /* ............//// Showcase styling ////......... */
+
+#logo2 {
+  width: 400px;
+  top: 10%;
+  position: absolute;
+}
 
 .showcase-area {
   height: 100vh;
@@ -239,6 +247,7 @@ body {
 
 #axoum {
   padding: 5rem 0 10rem 0;
+  margin-bottom: -50px;
 }
 
 #axoum h2 {
@@ -251,6 +260,7 @@ body {
 }
 
 .axoum-container {
+  margin-top: 40px;
   display: flex;
   justify-content: space-between;
 }
@@ -293,8 +303,7 @@ body {
 }
 
 #learn {
-  margin-left: 50%;
-  transform: translate(-50%);
+
   margin-bottom: 20px;
 }
 
@@ -688,7 +697,16 @@ body {
   }
 }
 
-@media (min-width: 769px) and (max-width: 1200px) {
+@media (min-width: 400px) and (max-width: 1200px) {
+  #logo2 {
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1500px) {
+  #logo2 {
+    visibility: hidden;
+  }
 
   .video-background {
     position: relative;
