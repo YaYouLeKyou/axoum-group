@@ -10,6 +10,7 @@
 
 .html {
   font-size: 62.5%;
+  overflow: hidden;
 }
 
 body {
@@ -123,11 +124,21 @@ section {
 
 
 /* ............//// Showcase styling ////......... */
+#title-axoum {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 5rem;
+}
 
 #logo2 {
   width: 400px;
-  top: 10%;
+  top: 9%;
+  left: 0;
   position: absolute;
+  margin: 0;
+  padding: 0;
 }
 
 .showcase-area {
@@ -143,6 +154,7 @@ section {
   justify-content: center;
   font-size: 1.6rem;
   height: 50vh;
+
 
 }
 
@@ -277,7 +289,6 @@ section {
 .img-container {
   margin: 0 1rem;
   position: relative;
-  border: solid black 1px;
   margin-bottom: 20px;
 }
 
