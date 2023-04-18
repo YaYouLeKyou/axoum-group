@@ -159,9 +159,12 @@ section {
 }
 
 .main-title {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
   text-align: center;
   text-transform: uppercase;
-  margin-top: 40px;
+  margin-top: 80px;
   margin-bottom: 40px;
   text-shadow: 1px 0px 7px rgba(255, 255, 255, 1);
 }
@@ -256,6 +259,14 @@ section {
 }
 
 /* ..........////axoum category///........... */
+
+#exp-img {
+  width: 50vh;
+}
+
+#social-media {
+  width: 50vh;
+}
 
 #axoum {
   padding: 5rem 0 10rem 0;
@@ -407,6 +418,10 @@ section {
 }
 
 /* ........./ Testimonial /.......... */
+#partner {
+  width: 200px;
+  margin: 20px;
+}
 
 #testimonials {
   padding: 5rem 0;
@@ -453,19 +468,25 @@ section {
 
 /* ........ Contact Us........... */
 
-#contact {
+/* #contact {
   padding: 5rem 0;
   background: rgb(226, 226, 226);
+  text-align: center;
+  justify-content: center;
 }
 
 .contact-container {
   display: flex;
   background: #fff;
+  width: 100%;
+
 }
 
 .contact-img {
   width: 50%;
-}
+
+
+} */
 
 .contact-img img {
   display: block;
@@ -473,6 +494,14 @@ section {
   width: 100%;
   object-position: center;
   object-fit: cover;
+  margin-top: 60px;
+}
+
+.contact-text {
+  text-align: center;
+  background-color: white;
+  padding-bottom: 40px;
+  font-size: 1.5rem;
 }
 
 .form-container {
