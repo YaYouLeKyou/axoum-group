@@ -133,13 +133,21 @@ section {
   font-size: 5rem;
 }
 
+#acceuil-title {
+  position: absolute;
+  width: 400px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
 #logo2 {
   width: 400px;
-  top: 9%;
-  left: 0;
   position: absolute;
+  top: 500px;
   margin: 0;
   padding: 0;
+  overflow: hidden;
+  z-index: 100;
 }
 
 .showcase-area {
@@ -226,6 +234,7 @@ section {
 .about-img {
   flex: 1 1 400px;
   padding: 30px;
+  margin-top: 80px;
   transform: translateX(150%);
   animation: about-img-animation 1s ease-in-out forwards;
 }
@@ -799,13 +808,15 @@ section {
 
 @media (min-width: 400px) and (max-width: 1200px) {
   #logo2 {
-    visibility: hidden;
+    top: 700px;
+
   }
 }
 
-@media (min-width: 769px) and (max-width: 1500px) {
+@media (min-width: 769px) and (max-width: 2000px) {
   #logo2 {
-    visibility: hidden;
+    top: 700px;
+
   }
 
   .video-background {
