@@ -335,7 +335,9 @@ section {
 
 #exp-ul {
   color: white;
-  font-size: 0.8rem;
+  font-size: 1.4rem;
+  margin-top: 40px;
+  list-style: none;
 }
 
 #learn {
